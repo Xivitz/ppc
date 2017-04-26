@@ -2,7 +2,7 @@
 require_once('cabecalho.php')
  ?>
 
-<h3 class="container-fluid" align="center" id="titulo">Bem vindo ao Sistema de Gerência Pedagógica de Cursos!</h2>
+<h2 class="container-fluid" id="titulo">Bem vindo ao Sistema de Gerência Pedagógica de Cursos!</h2>
 
     <div class="container">
         <div class="card card-container">
@@ -21,3 +21,6 @@ require_once('cabecalho.php')
             </form><!-- /form -->
         </div><!-- /card-container -->
     </div><!-- /container -->
+<?php 
+require_once('rodape.php')
+?> 
