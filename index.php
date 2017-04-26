@@ -1,42 +1,23 @@
-<?php
-error_reporting(E_ALL ^ E_NOTICE);
-?>
+<?php 
+require_once('cabecalho.php')
+ ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>SIGPEC</title>
-	<meta charset="utf-8">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/estoque.css"> -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-</head>
-<body>
+<h3 class="container-fluid" align="center" id="titulo">Bem vindo ao Sistema de Gerência Pedagógica de Cursos!</h2>
 
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.php">Estoque</a>
-			</div>
-			<div>
-				<ul class="nav navbar-nav">
-					<li><a href="formulario.php">Adicionar Produto</a></li>
-					<li><a href="lista.php">Produtos</a></li>
-					<li><a href="listaMovimentacoes.php">Movimentações</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="principal">
-		<?php
-			mostraAlerta('success');
-			mostraAlerta('danger');
-		?>
+    <div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="email" id="inputEmail" class="form-control" placeholder="e-mail" required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="senha" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Lembrar-me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Entrar</button>
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->
