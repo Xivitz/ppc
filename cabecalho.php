@@ -25,7 +25,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 			<div>
 				<ul class="nav navbar-nav">
 					<li><a href="incluirCurso.php">Incluir Curso</a></li>
-					<li><a href="lista.php">Consultar Curso</a></li>
+					<li><a href="consultaDadosGeraisCurso.php">Consultar Curso</a></li>
 				</ul>
 			</div>
 		</div>

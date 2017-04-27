@@ -5,7 +5,7 @@ include('cabecalho.php');
 <div class="container">
 
 	<form action="" method="get" accept-charset="utf-8" id="formulario">
-		<h2>Incluir Dados Gerais do Curso</h2>
+		<h2>Consulta de Dados Gerais do Curso</h2>
 		<div class="row">
 		 <div class="form-group col-md-4">
 		   <label for="campo1">Tipo do Curso</label>
@@ -90,9 +90,9 @@ include('cabecalho.php');
 		 </div>
 
 		 <div class="form-group col-md-3 col-md-offset-9"> 
-		   <a class="btn btn-primary" href="">Salvar</a>
-		   <a class="btn btn-default" href="">Limpar</a>
-		   <a class="btn btn-info" href="" disabled="disabled">Alterar</a>
+		   <a class="btn btn-primary" href="" disabled="disabled">Salvar</a>
+		   <a class="btn btn-default" href="" disabled="disabled">Limpar</a>
+		   <a class="btn btn-info" href="">Alterar</a>
 		 </div>
 		</div>
 
