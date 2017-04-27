@@ -88,6 +88,12 @@ include('cabecalho.php');
 		   <label for="campo11">Tempo de Dedicação</label>
 		   <input class="form-control" disabled="disabled"></input>
 		 </div>
+
+		 <div class="form-group col-md-3 col-md-offset-9"> 
+		   <a class="btn btn-primary" href="">Salvar</a>
+		   <a class="btn btn-default" href="">Limpar</a>
+		   <a class="btn btn-info" href="" disabled="disabled">Limpar</a>
+		 </div>
 		</div>
 
 	</form>
