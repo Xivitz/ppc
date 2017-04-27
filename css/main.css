@@ -1,3 +1,12 @@
-.navbar {
-	margin-top: 500px;
+.footer {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:50px;
+    margin-bottom:0px;
+}
+
+#formulario {
+	margin-top: 70px;
 }
