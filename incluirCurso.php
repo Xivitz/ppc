@@ -92,7 +92,7 @@ include('cabecalho.php');
 		 <div class="form-group col-md-3 col-md-offset-9"> 
 		   <a class="btn btn-primary" href="">Salvar</a>
 		   <a class="btn btn-default" href="">Limpar</a>
-		   <a class="btn btn-info" href="" disabled="disabled">Alterar</a>
+		   <a class="btn btn-success" href="" disabled="disabled">Alterar</a>
 		 </div>
 		</div>
 
