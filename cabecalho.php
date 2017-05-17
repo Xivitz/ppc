@@ -16,7 +16,6 @@ error_reporting(E_ALL ^ E_NOTICE);
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
-
  	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -26,6 +25,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 				<ul class="nav navbar-nav">
 					<li><a href="incluirCurso.php">Incluir Curso</a></li>
 					<li><a href="consultaDadosGeraisCurso.php">Consultar Curso</a></li>
+					<li><a href="cadastroPPC.php">Cadastro de PPC</a></li>
 				</ul>
 			</div>
 		</div>

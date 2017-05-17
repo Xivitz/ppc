@@ -1,11 +1,10 @@
-<?php
-include('cabecalho.php');
-?>
+<?php require_once('cabecalho.php') ?>
 
 <div class="container">
 
 	<form action="" method="get" accept-charset="utf-8" id="formulario">
 		<h2>Incluir Dados Gerais do Curso</h2>
+		<hr>
 		<div class="row">
 		 <div class="form-group col-md-4">
 		   <label for="campo1">Tipo do Curso</label>
@@ -53,7 +52,7 @@ include('cabecalho.php');
 
 		 <div class="form-group col-md-6">
 		   <label for="campo9">Regime Letivo</label>
-		   <input type="text" class="form-control" id="campo9">
+		   <input type="text" class="form-control" id="campo9">		   
 		 </div>
 
 		 <div class="form-group col-md-6">
@@ -98,5 +97,7 @@ include('cabecalho.php');
 
 	</form>
 </div>
+
+
 
 <?php include('rodape.php'); ?>

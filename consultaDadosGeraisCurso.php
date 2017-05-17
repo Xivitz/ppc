@@ -6,6 +6,7 @@ include('cabecalho.php');
 
 	<form action="" method="get" accept-charset="utf-8" id="formulario">
 		<h2>Consulta de Dados Gerais do Curso</h2>
+		<hr>
 		<div class="row">
 		 <div class="form-group col-md-4">
 		   <label for="campo1">Tipo do Curso</label>
