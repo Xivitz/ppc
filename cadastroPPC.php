@@ -17,12 +17,12 @@
 
 		<div class="row">			
 			<div class="form-group col-md-6">
-				<label class="col-md-12">Pefil do Curso:</label>
+				<label class="col-md-12">Perfil do Curso:</label>
 				<input type="text" class="form-control" id="">	
 			</div>
 
 			<div class="form-group col-md-offset-6">
-				<label class="col-md-12">Pefil do Egresso:</label>
+				<label class="col-md-12">Perfil do Egresso:</label>
 				<input type="text" class="form-control" id="">
 			</div>
 		</div>
