@@ -356,9 +356,183 @@
 			        </div>
 
 			        <div class="tab-pane fade" id="publicacoes">
-			        
-			            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Bitch.</p>
-			        </div>
+				        <div class="row">			        			        	
+				        	<div class="col-md-6">
+					        	<form action="" method="get" accept-charset="utf-8">
+
+						        	<fieldset>
+						        		<legend id="legend">Artigos publicados em periódicos científicos</legend>
+						        		<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">na área (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+							        	<br>
+							        	<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>						        		
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">em outras áreas (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>			        		
+						        	</fieldset>
+					        	</form>
+				        	</div>
+				        	<div class="col-md-6">
+					        	<form action="" method="get" accept-charset="utf-8">
+						        	<fieldset>
+						        		<legend id="legend">Livros ou capítulos</legend>
+						        		<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">livros publicados na área (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+							        	<br>
+							        	<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>						        		
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">livros publicados em outras áreas (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>			        		
+						        	</fieldset>
+					        	</form>
+				        	</div>			            
+				        </div>
+				        <br>
+				        <div class="row">			        			        	
+				        	<div class="col-md-6">
+					        	<form action="" method="get" accept-charset="utf-8">
+						        	<fieldset>
+						        		<legend id="legend">Trabalhos publicados em anais</legend>
+						        		<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">completos (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+							        	<br>
+							        	<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>						        		
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">resumos (qtde)</label>						        		
+									        	</div>
+								        	</div>
+							        	</div>			        		
+						        	</fieldset>
+					        	</form>
+				        	</div>
+				        	<div class="col-md-6">
+					        	<form action="" method="get" accept-charset="utf-8">
+						        	<fieldset>
+						        		<legend id="legend">Propriedade intelectual</legend>
+						        		<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">depositada (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+							        	<br>
+							        	<div class="row">
+								        	<div class="col-md-12">
+									        	<div class="col-md-3">
+									        		<input class="form-control" type="number"></input>						        		
+									        	</div>
+									        	<div class="col-md-offset-2">
+									        		<label for="">registrada (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>			        		
+						        	</fieldset>
+					        	</form>
+				        	</div>			            
+				        </div>
+				        <br>
+				        <div class="row">			        			        	
+				        	<div class="col-md-12">
+					        	<form action="" method="get" accept-charset="utf-8">
+						        	<fieldset>
+						        		<legend id="legend">Outras publicações</legend>
+						        		<div class="row">
+								        	<div class="col-md-8">
+									        	<div class="col-md-2">
+									        		<input class="form-control" type="number"></input>
+									        	</div>
+									        	<div class="col-md-offset-1">
+									        		<label for="">Traduções de livros, capítulos de livros ou artigos publicados (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+							        	<br>
+							        	<div class="row">
+								        	<div class="col-md-8">
+									        	<div class="col-md-2">
+									        		<input class="form-control" type="number"></input>						        		
+									        	</div>
+									        	<div class="col-md-offset-1">
+									        		<label for="">Projetos e/ou produções técnicas artísticas e culturais (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+										<br>
+							        	<div class="row">
+								        	<div class="col-md-8">
+									        	<div class="col-md-2">
+									        		<input class="form-control" type="number"></input>						        		
+									        	</div>
+									        	<div class="col-md-offset-1">
+									        		<label for="">Produção didático-pedagógica relevante, publicada ou não (qtde)</label>
+									        	</div>
+								        	</div>
+							        	</div>
+						        	</fieldset>
+					        	</form>
+				        	</div>				        	
+				        </div>
+				        <br>
+        				<div class="row">
+				        	<div class="col-md-12">										        	
+					        	<div>
+					        		<label for="" style="margin-left: 90px;">Anexar comprovantes</label>
+					        	</div>
+					        	<div class="col-md-1">
+				        		<i class="fa fa-plus-square"></i>
+				        		<i class="fa fa-minus-square" style="margin-right: 810px;"></i>		        		
+		        				</div>
+					        	<div class="col-md-4">
+					        		<select name="" class="form-control">
+					        		</select>										        		
+					        	</div>
+				        	</div>
+				        </div>
+			        </div>  
 			</div><!-- tab content -->
 		   </div><!-- end of container -->
 	    </div>
