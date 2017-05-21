@@ -73,47 +73,173 @@
 			        	
 			        	<div class="row" style="text-align: center">
 				        	<hr>
-				        	<label for="">Informe a quantidade de horas das atividades</label>
+				        	<h4>Informe a quantidade de horas das atividades</h4>
+				        	<hr>
 				        </div>
 
-				        	<div class="row">				        		
-					        	<div class="col-md-2">
-						        	<input class="form-control" type="number"></input><label for="">Horas NDE</label>
+				        <div class="col-md-6" style="border-right: solid;">
+				        	<div class="row">	
+					        	<div class="col-md-12">						        	
+					        		<div class="col-md-3">
+					        			<input class="form-control" type="number"></input>					        			
+					        		</div>
+						        	<div class="col-md-offset-2">
+							        	<label for="">Horas NDE</label>
+						        	</div>						        	
 					        	</div>
 				        	</div>
-
+				        	<br>
 				        	<div class="row">
-					        	<div class="col-md-2">
-						        	<input class="form-control" type="number"></input><label for="">Orientação TCC</label>       		
+					        	<div class="col-md-12">
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Orientação TCC</label>
+						        	</div>
 					        	</div>
 				        	</div>
-
+				        	<br>
 				        	<div class="row">
-					        	<div class="col-md-2">
-						        	<input class="form-control" type="number"></input><label for="">Coordenação Curso</label>
+					        	<div class="col-md-12">
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Coordenação Curso</label>
+						        	</div>
+					        	</div>
+				        	</div>
+				        	<br>
+				        	<div class="row">
+					        	<div class="col-md-12">
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>						        		
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Coordenação Outros Cursos</label>						        		
+						        	</div>
+					        	</div>
+				        	</div>
+				        	<br>
+				        	<div class="row">
+					        	<div class="col-md-12">
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>						        		
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Pesquisa (semestre atual)</label>						        		
+						        	</div>
 					        	</div>				        		
 				        	</div>
+				        </div>
 
-				        	<div class="row">
-					        	<div class="col-md-2">
-						        	<input class="form-control" type="number"></input>
-						        	<label for="">Coordenação Outros Cursos</label>					        	
-					        	</div>				        		
+				        <div class="col-md-6"> 
+				        	<div class="row">	
+					        	<div class="col-md-12">						        	
+					        		<div class="col-md-3">
+					        			<input class="form-control" type="number"></input>					        			
+					        		</div>
+						        	<div class="col-md-offset-2">
+							        	<label for="">Atividades Extra classe no curso</label>
+						        	</div>						        	
+					        	</div>
 				        	</div>
+				        	<br>
+				        	<div class="row">
+					        	<div class="col-md-12">
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Atividae Extra classe outros cursos</label>
+						        	</div>
+					        	</div>
+				        	</div>
+				        	<br>
+				        	<div class="row">
+					        	<div class="col-md-12">						        	
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Qtde de Horas Curso</label>
+						        	</div>
+					        	</div>
+				        	</div>
+				        	<br>
+				        	<div class="row">
+					        	<div class="col-md-12">
+						        	<div class="col-md-3">
+						        		<input class="form-control" type="number"></input>						        		
+						        	</div>
+						        	<div class="col-md-offset-2">
+						        		<label for="">Qtde de Horas Outros Cursos</label>						        		
+						        	</div>
+					        	</div>
+				        	</div>				        	
+				        </div>				        
 
-				        	<div class="row">
-					        	<div class="col-md-2">
-						        	<input class="form-control" type="number"></input>
-						        	<label for="">Pesquisa (semestre atual)</label>					        	
-					        	</div>				        		
-				        	</div>
-				        
 						</form>
 			        </div>
 
 			        <div class="tab-pane fade" id="atuacaoProfissional">
 			            
-			            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. MotherFuck.</p>
+			            <div>
+			            	<div class="row">
+					        	<div class="col-md-12">
+						        	<div class="col-md-1">
+						        		<input type="checkbox"></input>						        		
+						        	</div>
+						        	<div class="col-md-2">
+						        		<label for="">Membro NDE?</label>	
+						        	</div>
+
+						        	<div class="col-md-1">
+						        		<input type="checkbox"></input>						        		
+						        	</div>
+						        	<div class="col-md-offset-1">
+						        		<label for="">Membro Colegiado?</label>						        		
+						        	</div>
+					        	</div>
+				        	</div>
+				        	<div class="row">
+					        	<div class="col-md-12">
+					        		<div class="col-md-1">
+							        	<input type="checkbox" id="docente"></input>
+							        </div>
+							        <div class="col-md-8">
+							        	<label for="">Docente com formação/capacitação/experiência pedagógica?</label>	
+							        </div>
+					        	</div>      		
+				        	</div>
+				        	<hr>
+				        	<h5>O sistema irá calcular o tempo em anos e meses a partir da diferença com a data atual.</h5>
+
+				        	<div class="row">
+					        	<div class="col-md-6">
+
+
+
+					        	<form action="" method="get" accept-charset="utf-8">
+					        	<fieldset>
+					        		<legend>Tempo de vínculo initerrupto do docente com o curso</legend>
+
+
+					        		<label for="">Data Inicial</label>
+					        		<input id="datepicker"></input>
+
+					        	</fieldset>	
+					        		
+					        	</form>
+
+
+					        		
+					        	</div>				        		
+				        	</div>
+
+
+			            </div>
 			        </div>
 
 			        <div class="tab-pane fade" id="publicacoes">
@@ -123,7 +249,6 @@
 			</div><!-- tab content -->
 		   </div><!-- end of container -->
 	    </div>
-	  </div>
 	</div>
-</form>
-
+	</form>
+</div>	
