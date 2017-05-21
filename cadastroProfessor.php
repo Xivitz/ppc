@@ -214,31 +214,144 @@
 					        	</div>      		
 				        	</div>
 				        	<hr>
-				        	<h5>O sistema irá calcular o tempo em anos e meses a partir da diferença com a data atual.</h5>
-
+				        	<h5 align="center">O sistema irá calcular o tempo em anos e meses a partir da diferença com a data atual.</h5>
+							<hr>
 				        	<div class="row">
 					        	<div class="col-md-6">
 
+						        	<form action="" method="get" accept-charset="utf-8">
+							        	<fieldset>
+							        		<legend id="legend">Tempo de vínculo initerrupto do docente com o curso</legend>
 
+							        		<div class="row">
+							        			<div class="col-md-4">
+									        		<label for="">Data Inicial</label>
+									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+							        			</div>
+							        			<div class="col-md-1" style="margin-top: 30px;">
+									        		<i class="fa fa-calendar"></i>							        				
+							        			</div>
+							        			<div class="col-md-6">
+									        		<label for="">Tempo inicial</label>
+									        		<input class="form-control" type="text"></input>
+							        			</div>
+							        		</div>
 
-					        	<form action="" method="get" accept-charset="utf-8">
-					        	<fieldset>
-					        		<legend>Tempo de vínculo initerrupto do docente com o curso</legend>
+							        	</fieldset>
+						        		
+						        	</form>				        		
+					        	</div>
 
+					        	<div class="col-md-6">
 
-					        		<label for="">Data Inicial</label>
-					        		<input id="datepicker"></input>
+						        	<form action="" method="get" accept-charset="utf-8">
+							        	<fieldset>
+							        		<legend id="legend">Tempo Experiência Magistério Superior</legend>
 
-					        	</fieldset>	
-					        		
-					        	</form>
+							        		<div class="row">
+							        			<div class="col-md-4">
+									        		<label for="">Data Inicial</label>
+									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+							        			</div>
+							        			<div class="col-md-1" style="margin-top: 30px;">
+									        		<i class="fa fa-calendar"></i>							        				
+							        			</div>
+							        			<div class="col-md-6">
+									        		<label for="">Tempo inicial</label>
+									        		<input class="form-control" type="text"></input>
+							        			</div>
+							        		</div>
 
-
-					        		
-					        	</div>				        		
+							        	</fieldset>
+						        		
+						        	</form>				        		
+					        	</div>
 				        	</div>
+				        	<br>	
+				        	<div class="row">
+					        	<div class="col-md-6">
 
+						        	<form action="" method="get" accept-charset="utf-8">
+							        	<fieldset>
+							        		<legend id="legend">Experiência em cursos a distância</legend>
 
+							        		<div class="row">
+							        			<div class="col-md-4">
+									        		<label for="">Data Inicial</label>
+									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+							        			</div>
+												<div class="col-md-1" style="margin-top: 30px;">
+									        		<i class="fa fa-calendar"></i>							        				
+							        			</div>
+							        			<div class="col-md-6">
+									        		<label for="">Tempo inicial</label>
+									        		<input class="form-control" type="text"></input>
+							        			</div>
+							        		</div>
+							        	</fieldset>						        		
+						        	</form>
+					        	</div>
+
+					        	<div class="col-md-6">
+
+						        	<form action="" method="get" accept-charset="utf-8">
+							        	<fieldset>
+							        		<legend id="legend">Tempo Experiência Profissional</legend>
+
+							        		<div class="row">
+							        			<div class="col-md-4">
+									        		<label for="">Data Inicial</label>
+									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+							        			</div>
+							        			<div class="col-md-1" style="margin-top: 30px;">
+									        		<i class="fa fa-calendar"></i>							        				
+							        			</div>
+							        			<div class="col-md-6">
+									        		<label for="">Tempo inicial</label>
+									        		<input class="form-control" type="text"></input>
+							        			</div>
+							        		</div>
+
+							        	</fieldset>
+						        		
+						        	</form>				        		
+					        	</div>
+				        	</div>
+				        	<hr>
+				        	<div class="row">
+					        	<div class="col-md-6">
+						        	<form action="" method="get" accept-charset="utf-8">
+							        	<fieldset>
+							        		<legend id="legend">Participação em Eventos</legend>
+								        	<div class="row">
+									        	<div class="col-md-12">
+										        	<div class="col-md-3">
+										        		<input class="form-control" type="number"></input>	
+										        	</div>
+										        	<div class="col-md-offset-2">
+										        		<label for="">Quantidade</label>
+										        	</div>
+									        	</div>
+								        	</div>
+								        	<div class="row">
+									        	<div class="col-md-12">										        	
+										        	<div>
+										        		<label for="">Anexar comprovantes</label>
+										        	</div>
+										        	<div class="col-md-6">
+										        		<select name="" class="form-control">
+										        		</select>										        		
+										        	</div>
+										        	<div class="col-md-offset-6">
+									        		<i class="fa fa-plus-square"></i>
+									        		<i class="fa fa-minus-square" style="margin-right: 810px;"></i>		        		
+							        			</div>
+									        	</div>
+								        	</div>
+							        	</fieldset>						        		
+						        	</form>	        		
+					        	</div>		        		
+				        	</div>
 			            </div>
 			        </div>
 
@@ -251,4 +364,5 @@
 	    </div>
 	</div>
 	</form>
-</div>	
+</div>
+<?php include('rodape.php') ?>
