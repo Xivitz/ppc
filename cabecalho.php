@@ -30,6 +30,7 @@ error_reporting(E_ALL ^ E_NOTICE);
 					<li><a href="cadastroPPC.php">Cadastro de PPC</a></li>
 					<li><a href="filtrarCursos.php">Filtrar Cursos</a></li>
 					<li><a href="cadastroProfessor.php">Cadastrar Professor</a></li>
+					<li><a href="cadastroDisciplina.php">Cadastrar Disciplina</a></li>
 				</ul>
 			</div>
 		</div>
