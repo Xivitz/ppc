@@ -67,7 +67,7 @@
 				        	</div>
 				        	<div class="col-md-4"> 
 				        		<label for="">Data Admissão *</label>
-				        		<input class="form-control col-md-8" type="text" id="datepicker" required="true"></input>	
+				        		<input class="form-control col-md-8 datepicker" type="text" required="true"></input>	
 				        	</div>
 						</div>
 			        	
@@ -226,7 +226,7 @@
 							        		<div class="row">
 							        			<div class="col-md-4">
 									        		<label for="">Data Inicial</label>
-									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+									        		<input class="form-control datepicker" type="text" required="true"></input>
 							        			</div>
 							        			<div class="col-md-1" style="margin-top: 30px;">
 									        		<i class="fa fa-calendar"></i>							        				
@@ -251,7 +251,7 @@
 							        		<div class="row">
 							        			<div class="col-md-4">
 									        		<label for="">Data Inicial</label>
-									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+									        		<input class="form-control datepicker" type="text" required="true"></input>
 							        			</div>
 							        			<div class="col-md-1" style="margin-top: 30px;">
 									        		<i class="fa fa-calendar"></i>							        				
@@ -278,7 +278,7 @@
 							        		<div class="row">
 							        			<div class="col-md-4">
 									        		<label for="">Data Inicial</label>
-									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+									        		<input class="form-control datepicker" type="text" required="true"></input>
 							        			</div>
 												<div class="col-md-1" style="margin-top: 30px;">
 									        		<i class="fa fa-calendar"></i>							        				
@@ -301,7 +301,7 @@
 							        		<div class="row">
 							        			<div class="col-md-4">
 									        		<label for="">Data Inicial</label>
-									        		<input class="form-control" type="text" id="datepicker" required="true"></input>
+									        		<input class="form-control datepicker" type="text" required="true"></input>
 							        			</div>
 							        			<div class="col-md-1" style="margin-top: 30px;">
 									        		<i class="fa fa-calendar"></i>							        				
