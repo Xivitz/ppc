@@ -1,17 +1,23 @@
-<?php 
-require_once('cabecalho.php')
- ?>
+0<?php 
+require_once('cabecalho.php');
+require_once('logicaUsuario.php');
+?>
 
 <h2 class="container-fluid" id="titulo">Bem vindo ao Sistema de Gerência Pedagógica de Cursos!</h2>
 
+    <?php if(usuarioEstaLogado()) {?>
+        <p class="text-success">Você está logado como <?php echo usuarioLogado();?> <a href="logout.php">Deslogar</a></p>
+    <?php } else { ?>
     <div class="container">
         <div class="card card-container">
             <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
             <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin">
+
+
+            <form action="login.php" method="POST" class="form-signin">
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="e-mail" required autofocus>
-                <input type="password" id="inputPassword" class="form-control" placeholder="senha" required>
+                <input type="email" id="inputEmail" name="email" class="form-control" placeholder="e-mail" required autofocus>
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="senha" required>
                 <div id="remember" class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Lembrar-me
@@ -21,6 +27,7 @@ require_once('cabecalho.php')
             </form><!-- /form -->
         </div><!-- /card-container -->
     </div><!-- /container -->
+    <?php }?>
 <?php 
 require_once('rodape.php')
 ?> 

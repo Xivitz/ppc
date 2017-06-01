@@ -1,0 +1,18 @@
+create database ppc;
+
+use ppc;
+
+
+create table users (
+
+id integer primary key auto_increment,
+
+email varchar (50),
+
+senha varchar (50)
+);
+
+
+
+insert into users (email, senha)
+values ('coordenador@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
