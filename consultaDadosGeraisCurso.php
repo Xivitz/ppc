@@ -1,5 +1,10 @@
 <?php
-include('cabecalho.php');
+require_once('cabecalho.php');
+require_once('conecta.php');
+require_once('persistenciaCurso.php');
+
+$id = $_GET['id'];
+$curso = buscaCurso($conexao, $id);
 ?>
 
 <div class="container">
@@ -10,7 +15,7 @@ include('cabecalho.php');
 		<div class="row">
 		 <div class="form-group col-md-4">
 		   <label for="campo1">Tipo do Curso</label>
-		   <input type="text" class="form-control" id="campo1">
+		   <input type="text" class="form-control" value="<?php $curso['tipo_curso']?>">
 		 </div>
 		 
 		 <div class="form-group col-md-4">

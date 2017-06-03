@@ -2,48 +2,48 @@
 
 <div class="container">
 
-	<form action="" method="get" accept-charset="utf-8" id="formulario">
+	<form action="cadastraCurso.php" method="post" accept-charset="utf-8" id="formulario">
 		<h2>Incluir Dados Gerais do Curso</h2>
 		<hr>
 		<div class="row">
 		 <div class="form-group col-md-4">
 		   <label for="campo1">Tipo do Curso</label>
-		   <input type="text" class="form-control" id="campo1">
+		   <input type="text" class="form-control" name="tipo_curso" id="tipo_curso">
 		 </div>
 		 
 		 <div class="form-group col-md-4">
 		   <label for="campo2">Modalidade</label>
-		   <input type="text" class="form-control" id="campo3">
+		   <input type="text" class="form-control" name="modalidade" id="modalidade">
 		 </div>
 		 
 		 <div class="form-group col-md-4">
 		   <label for="campo3">Denominação do Curso</label>
-		   <input type="text" class="form-control" id="campo3">
+		   <input type="text" class="form-control" name="denominacao_curso" id="denominacao_curso">	
 		 </div>
 
 		 <div class="form-group col-md-4">
 		   <label for="campo4">Habilitação</label>
-		   <input type="text" class="form-control" id="campo4">
+		   <input type="text" class="form-control" name="habilitacao" id="habilitacao">
 		 </div>
 
 		 <div class="form-group col-md-4">
 		   <label for="campo5">Local de Oferta</label>
-		   <input type="text" class="form-control" id="campo5">
+		   <input type="text" class="form-control" name="local_oferta" id="local_oferta">
 		 </div>
 
 		 <div class="form-group col-md-4">
 		   <label for="campo6">Turnos de Funcionamento</label>
-		   <input type="text" class="form-control" id="campo6">
+		   <input type="text" class="form-control" name="turnos" id="turnos">
 		 </div>
 
 		 <div class="form-group col-md-6">
 		   <label for="campo7">Nº de vagas para cada aluno</label>
-		   <input type="number" class="form-control" id="campo7">
+		   <input type="number" class="form-control" name="vagas" id="vagas">
 		 </div>
 
 		 <div class="form-group col-md-6">
 		   <label for="campo8">Carga Horária do Curso</label>
-		   <input type="number" class="form-control" id="campo8">
+		   <input type="number" class="form-control" name="carga_horaria" id="carga_horaria">
 		 </div>
 		 
 		 <div class="form-group col-md-9">
@@ -89,7 +89,7 @@
 		 </div>
 
 		 <div class="form-group col-md-3 col-md-offset-9"> 
-		   <a class="btn btn-primary" href="">Salvar</a>
+		   <input class="btn btn-primary" type="submit" value="Salvar"></input>
 		   <a class="btn btn-default" href="">Limpar</a>
 		   <a class="btn btn-success" href="" disabled="disabled">Alterar</a>
 		 </div>

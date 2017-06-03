@@ -17,10 +17,7 @@
 		public $cargaHoraria;
 
 
-		function __construct(argument)
-		{
-			# code...
-		}
+
 	}
 
 
