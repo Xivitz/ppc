@@ -2,17 +2,23 @@ create database ppc;
 
 use ppc;
 
-
 create table users (
-
 id integer primary key auto_increment,
-
 email varchar (50),
-
 senha varchar (50)
 );
 
-
-
 insert into users (email, senha)
 values ('coordenador@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
+
+create table curso (
+id integer primary key auto_increment,
+tipo_curso varchar (50),
+modalidade varchar (50),
+denominacao_curso varchar (50),
+habilitacao varchar (50),
+local_oferta varchar (50),
+turnos varchar (50),
+vagas_cada_aluno integer (50),
+carga_horaria integer (50)
+);
