@@ -35,8 +35,7 @@ include('mostraAlerta.php');
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div class="principal">
+	</div>	
 		<?php
 		mostraAlerta('success');
 		mostraAlerta('danger');

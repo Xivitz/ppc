@@ -16,7 +16,7 @@ $curso->habilitacao		  = $_POST['habilitacao'];
 $curso->localOferta		  = $_POST['local_oferta'];
 $curso->turno			  = $_POST['turnos'];
 $curso->vagas			  = $_POST['vagas'];
-$curso->cargaHoraria	  = $_POST['carga_horaria']; 
+$curso->cargaHoraria	  = $_POST['carga_horaria'];
 
 
 if (insereCurso($conexao, $curso)) {
