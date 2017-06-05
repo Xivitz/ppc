@@ -1,4 +1,8 @@
-<?php include('cabecalho.php') ?>
+<?php
+require_once('cabecalho.php');
+require_once('logicaUsuario.php');
+verificaUsuario();
+?>
 
 <div class="container">
 	<form action="" method="get" accept-charset="utf-8" id="formulario">

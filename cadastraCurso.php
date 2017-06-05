@@ -21,10 +21,10 @@ $curso->cargaHoraria	  = $_POST['carga_horaria'];
 
 if (insereCurso($conexao, $curso)) {
 ?>
-	<p class="alert-success">O curso <?php echo $curso->tipoCurso; ?> foi adicionado com sucesso! </p>
+	<p class="alert-success" id="mostra-alerta">O curso <?php echo $curso->tipoCurso; ?> foi adicionado com sucesso! </p>
 <?php } else {
 	$msg = mysqli_error($conexao);
 ?>
-	<p class="alert-danger">O produto <?php echo $curso->tipoCurso; ?> não foi adicionado: <?php echo $msg ?></p>
+	<p class="alert-danger" id="mostra-alerta">O produto <?php echo $curso->tipoCurso; ?> não foi adicionado: <?php echo $msg ?></p>
 <?php 
 }

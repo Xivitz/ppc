@@ -1,6 +1,6 @@
 <?php 
 
-$conexao = mysqli_connect('localhost', 'root', 'xivitz194032', 'ppc');
+$conexao = mysqli_connect('localhost', 'root', '', 'ppc');
 
 if (!$conexao) {
 	echo 'Conexão Falhou!' . mysqli_error();

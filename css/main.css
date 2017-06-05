@@ -23,3 +23,16 @@
 .qtdHorasAtividades {
 	border: 0.5px solid black;
 }
+
+#mostra-alerta {
+    margin-top: 100px;
+    margin-bottom: -90px;
+    text-align: center;
+}
+
+.imagem {
+    margin-top: 100px;
+    margin-bottom: -40px;
+    text-align: center;
+    
+}
