@@ -2,9 +2,6 @@
 require_once('cabecalho.php');
 require_once('conecta.php');
 require_once('persistenciaCurso.php');
-
-$id = $_GET['id'];
-$curso = buscaCurso($conexao, $id);
 ?>
 
 <div class="container">

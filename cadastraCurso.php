@@ -5,7 +5,7 @@ require_once('conecta.php');
 require_once('persistenciaCurso.php');
 require_once('logicaUsuario.php');
 
-//verificaUsuario();
+verificaUsuario();
 
 $curso = new Curso();
 
@@ -14,9 +14,9 @@ $curso->modalidade		  = $_POST['modalidade'];
 $curso->denominacaoCurso  = $_POST['denominacao_curso'];
 $curso->habilitacao		  = $_POST['habilitacao'];
 $curso->localOferta		  = $_POST['local_oferta'];
-$curso->turno			  = $_POST['turno'];
+$curso->turno			  = $_POST['turnos'];
 $curso->vagas			  = $_POST['vagas'];
-$curso->cargaHoraria	  = $_POST['carga_horaria'];
+$curso->cargaHoraria	  = $_POST['carga_horaria']; 
 
 
 if (insereCurso($conexao, $curso)) {

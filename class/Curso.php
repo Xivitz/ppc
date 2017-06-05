@@ -16,8 +16,6 @@
 		public $vagas;
 		public $cargaHoraria;
 
-
-
 	}
 
 

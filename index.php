@@ -1,13 +1,14 @@
-0<?php 
+<?php 
 require_once('cabecalho.php');
 require_once('logicaUsuario.php');
 ?>
 
-<h2 class="container-fluid" id="titulo">Bem vindo ao Sistema de Gerência Pedagógica de Cursos!</h2>
+<h2 class="container-fluid" id="titulo">SIGPEC</h2>
 
     <?php if(usuarioEstaLogado()) {?>
-        <p class="text-success">Você está logado como <?php echo usuarioLogado();?> <a href="logout.php">Deslogar</a></p>
+        <p class="text-success" align="center">Você está logado como <?php echo usuarioLogado();?> <a href="logout.php">Deslogar</a></p>
     <?php } else { ?>
+
     <div class="container">
         <div class="card card-container">
             <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />

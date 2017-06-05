@@ -2,7 +2,7 @@
 require_once('class/Curso.php');
 require_once('conecta.php');
 
-function insereCurso ($conexao, Curso $curso)
+function  insereCurso ($conexao, Curso $curso)
 {
 	$sql = "INSERT INTO curso (tipo_curso,
 								 modalidade,

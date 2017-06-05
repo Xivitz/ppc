@@ -22,3 +22,12 @@ turnos varchar (50),
 vagas_cada_aluno integer (50),
 carga_horaria integer (50)
 );
+
+create table disciplina (
+id integer primary key auto_increment,
+nome varchar (50),
+descricao varchar (50),
+codigo integer (50),
+semestre integer (50),
+carga_horaria integer (50)
+);
