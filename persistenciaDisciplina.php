@@ -7,8 +7,8 @@ function insereDisciplina ($conexao, Disciplina $disciplina)
 	$sql = "INSERT INTO disciplina (nome, descricao, codigo, semestre, carga_horaria)
 			VALUES ('{$disciplina->nome}',
 				    '{$disciplina->descricao}',
-				    {$disciplina->codigo},
-				    {$disciplina->semestre},
-				    {$disciplina->carga_horaria})";
+				    '{$disciplina->codigo}',
+				    '{$disciplina->semestre}',
+				    '{$disciplina->cargaHoraria}')";
 	return mysqli_query($conexao, $sql);
 }

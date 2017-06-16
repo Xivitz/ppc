@@ -2,6 +2,8 @@
 require_once('cabecalho.php');
 require_once('conecta.php');
 require_once('persistenciaCurso.php');
+require_once('logicaUsuario.php');
+verificaUsuario();
 ?>
 
 <div class="container">

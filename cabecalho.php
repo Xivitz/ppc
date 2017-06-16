@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
-require_once('mostraAlerta.php');
+include('mostraAlerta.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -35,8 +35,10 @@ require_once('mostraAlerta.php');
 				</ul>
 			</div>
 		</div>
-	</div>
-	<?php
+	</div>	
+		<?php
 		mostraAlerta('success');
 		mostraAlerta('danger');
-	?>
+		?>
+	
+	

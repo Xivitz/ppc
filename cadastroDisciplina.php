@@ -1,8 +1,12 @@
-<?php include('cabecalho.php') ?>
+<?php
+require_once('cabecalho.php');
+require_once('logicaUsuario.php');
+verificaUsuario();
+?>
 
 <div class="container">
 
-	<form action="" method="post" accept-charset="utf-8" id="formulario">
+	<form action="insereDisciplina.php" method="post" accept-charset="utf-8" id="formulario">
 		<h2>Cadastro de Disciplina</h2>
 		<hr>
 
@@ -48,7 +52,7 @@
 				<label class="col-md-12">Carga horária:</label>
 			</div>
 			<div class="form-group col-md-6">
-				<input type="text" class="form-control" name="carga_horaria" id="carga_horaria">
+				<input type="number" class="form-control" name="carga_horaria" id="carga_horaria">
 			</div>
 		</div>
 		<br>
@@ -60,4 +64,6 @@
 		</div>
 
 	</form>
-</div>	
+</div>
+
+<?php require_once('rodape.php'); ?>

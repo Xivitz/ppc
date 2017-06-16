@@ -1,5 +1,4 @@
 create database ppc;
-
 use ppc;
 
 create table users (
@@ -27,7 +26,7 @@ create table disciplina (
 id integer primary key auto_increment,
 nome varchar (50),
 descricao varchar (50),
-codigo integer (50),
-semestre integer (50),
+codigo varchar (50),
+semestre varchar (50),
 carga_horaria integer (50)
 );

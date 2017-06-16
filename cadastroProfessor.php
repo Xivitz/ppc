@@ -46,7 +46,7 @@ verificaUsuario();
 				</div>
 
 				<div class="form-group col-md-offset-9">
-					<label for="campo6">Data de atualizaçao:</label>
+					<label for="campo6">Data de atualização:</label>
 					<input type="text" class="form-control" id="campo6">
 				</div>
 				<button type="submit" class="btn btn-primary">Cadastrar</button>

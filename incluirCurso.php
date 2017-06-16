@@ -6,7 +6,7 @@ verificaUsuario();
 
 <div class="container">
 
-	<form action="cadastraCurso.php" method="post" accept-charset="utf-8" id="formulario">
+	<form action="insereCurso.php" method="post" accept-charset="utf-8" id="formulario">
 		<h2>Incluir Dados Gerais do Curso</h2>
 		<hr>
 		<div class="row">
