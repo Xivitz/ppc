@@ -6,6 +6,7 @@ require_once('logicaUsuario.php');
 $usuario = buscaUsuario($conexao, $_POST['email'], $_POST['password']);
 
 
+
 if ($usuario ==  null) {
 	$_SESSION['danger'] = 'Usuário ou senha inválidos.';
 	header('Location: index.php');

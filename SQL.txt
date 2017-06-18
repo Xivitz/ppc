@@ -30,3 +30,17 @@ codigo varchar (50),
 semestre varchar (50),
 carga_horaria integer (50)
 );
+
+create table ppc (
+id integer primary key auto_increment,
+cursos varchar (100),
+perfil_curso varchar (255),
+perfil_egresso varchar (255),
+forma_acesso varchar (255),
+representacao_grafica_perfil_formacao varchar (255),
+sis_avalia_proces_ensino_aprendizagem varchar (255),
+sis_avalia_projeto_curso varchar (255),
+tcc boolean,
+estagio_curricular boolean,
+politica_atendimento_PNE varchar (255)
+);
