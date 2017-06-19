@@ -29,3 +29,25 @@ function buscaCurso ($conexao, $id)
 	$retorno = mysqli_query($conexao, $sql);
 	return mysqli_fetch_assoc($retorno);
 }
+
+function listaCursos ($conexao)
+{
+	$cursos 	= array();
+	$resultado  = mysqli_query($conexao, 'SELECT * FROM curso');
+	while ($cursoAtual = mysqli_fetch_assoc($resultado)) {
+		
+		$curso = new Curso();
+		$curso ->id                = $cursoAtual['id'];
+		$curso ->tipoCurso         = $cursoAtual['tipo_curso'];
+		$curso ->modalidade        = $cursoAtual['modalidade'];
+		$curso ->denominacaoCurso  = $cursoAtual['denominacao_curso'];
+		$curso ->habilitacao       = $cursoAtual['habilitacao'];
+		$curso ->localOferta       = $cursoAtual['local_oferta'];
+		$curso ->turno             = $cursoAtual['turnos'];
+		$curso ->vagas  		   = $cursoAtual['vagas_cada_aluno'];
+		$curso ->cargaHoraria      = $cursoAtual['carga_horaria'];
+		array_push($cursos, $curso);		
+	}
+	return $cursos;
+	
+}

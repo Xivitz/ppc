@@ -1,6 +1,7 @@
 <?php
 require_once('cabecalho.php');
 require_once('logicaUsuario.php');
+require_once('persistenciaCurso.php');
 verificaUsuario();
 ?>
 
@@ -14,8 +15,14 @@ verificaUsuario();
 			<div class="form-group col-md-6">
 				<label class="col-md-12">Cursos</label>
 				<select name="cursos" class="form-control">
-					<option value=""></option>
-				</select>			
+					<?php
+					$cursos = listaCursos($conexao);
+					foreach ($cursos as $curso) :?>
+						<option value="<?=$curso[0]?>">
+							<?=$curso[0]?>
+						</option>
+					<?php endforeach ?>					
+				</select>
 			</div>
 		</div>
 
