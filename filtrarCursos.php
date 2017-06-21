@@ -1,6 +1,7 @@
 <?php
 require_once('cabecalho.php');
 require_once('logicaUsuario.php');
+require_once('persistenciaCurso.php');
 verificaUsuario();
 ?>
 
@@ -13,7 +14,16 @@ verificaUsuario();
 			<div class="form-group col-md-6">
 				<label class="col-md-12">Filtrar Cursos:</label>
 				<select name="cursos" class="form-control">
-					<option value=""></option>
+					<option value="x">Selecione um curso</option>
+					<?php
+					$cursos = listaCursos($conexao);
+					//var_dump($cursos[0]->tipoCurso); die;
+					$count = 0;
+					foreach ($cursos as $curso) : ?>
+						<option value="<?php echo $cursos[$count]->tipoCurso?>">
+							<?php echo $cursos[$count]->tipoCurso; $count++;?>
+						</option>
+					<?php endforeach ?>					
 				</select>
 			</div>
 			<button type="submit" class="btn btn-default" class="col-md-offset-8" style="margin-top: 22px;">Localizar</button>
@@ -54,3 +64,5 @@ verificaUsuario();
 		</div>	
 	</form>		
 </div>
+
+<?php require_once('rodape.php'); ?>

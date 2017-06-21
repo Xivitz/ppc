@@ -48,6 +48,7 @@ function listaCursos ($conexao)
 		$curso ->cargaHoraria      = $cursoAtual['carga_horaria'];
 		array_push($cursos, $curso);		
 	}
-	return $cursos;
-	
+
+//	var_dump($cursos[0]->tipoCurso); die;
+	return $cursos;	
 }

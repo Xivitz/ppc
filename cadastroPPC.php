@@ -15,11 +15,14 @@ verificaUsuario();
 			<div class="form-group col-md-6">
 				<label class="col-md-12">Cursos</label>
 				<select name="cursos" class="form-control">
+					<option value="x">Selecione um curso</option>
 					<?php
 					$cursos = listaCursos($conexao);
-					foreach ($cursos as $curso) :?>
-						<option value="<?=$curso[0]?>">
-							<?=$curso[0]?>
+					//var_dump($cursos[0]->tipoCurso); die;
+					$count = 0;
+					foreach ($cursos as $curso) : ?>
+						<option value="<?php echo $cursos[$count]->tipoCurso?>">
+							<?php echo $cursos[$count]->tipoCurso; $count++;?>
 						</option>
 					<?php endforeach ?>					
 				</select>
@@ -88,4 +91,6 @@ verificaUsuario();
 			</div>
 		</div>
 	</form>
-</div>	
+</div>
+
+<?php require_once('rodape.php'); ?>

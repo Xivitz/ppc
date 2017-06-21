@@ -42,12 +42,12 @@ verificaUsuario();
 
 		 <div class="form-group col-md-6">
 		   <label for="campo7">Nº de vagas para cada aluno</label>
-		   <input type="number" class="form-control" name="vagas" id="vagas">
+		   <input type="number" class="form-control" name="vagas" id="vagas" min="1">
 		 </div>
 
 		 <div class="form-group col-md-6">
 		   <label for="campo8">Carga Horária do Curso</label>
-		   <input type="number" class="form-control" name="carga_horaria" id="carga_horaria">
+		   <input type="number" class="form-control" name="carga_horaria" id="carga_horaria" min="1">
 		 </div>
 		 
 		 <div class="form-group col-md-9">
